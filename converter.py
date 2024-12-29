@@ -6,10 +6,8 @@ import ffmpeg
 # 註冊HEIF文件打開器
 register_heif_opener()
 
-# 指定源目錄
-source_dir = r'C:\Projectbyme\Multi-Format Converter\Unconverted'
-# 指定輸出目錄
-output_dir = r'C:\Projectbyme\Multi-Format Converter\Converted'
+source_dir = './Unconverted'
+output_dir = './Converted'
 
 # 如果輸出目錄不存在，則創建它
 if not os.path.exists(output_dir):
